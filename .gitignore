@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Database and Data
+db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Outputs & Generated Files
+out/
+benchmark-*.jsonl
+1000-*.jsonl
+competition-*.jsonl
+smoke-*.jsonl
+*.csv
+*.jsonl
+*.jsonl.gz
+
+# Logs
+*.log
